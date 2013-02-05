@@ -1,4 +1,4 @@
 div(class="tweets")
   each twit, i in twits
-    div #{twit.creator.username}
-      p #{twit.message}
+    div(class="creator") #{twit.creator.username}
+      p(class="message") #{twit.message}
