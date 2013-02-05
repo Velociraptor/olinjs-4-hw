@@ -1,7 +1,7 @@
 var mongoose = require('mongoose');
 
-//mongoose.connect(process.env.MONGOLAB_URI||'mongodb://localhost/twitterers');
-mongoose.connect('mongodb://localhost/twitterers');
+mongoose.connect(process.env.MONGOLAB_URI||'mongodb://localhost/twitterers');
+//mongoose.connect('mongodb://localhost/twitterers');
 
 var userSchema = mongoose.Schema({
     username: String
