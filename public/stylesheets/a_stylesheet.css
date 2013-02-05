@@ -7,6 +7,12 @@ body {
 
 form {
 	display: inline-block;
+	float:left;
+	vertical-align: top;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-top: 20px;
+	padding-bottom: 20px;
 	background-color: #476B6B;
 	text-align: center;
 	border-radius: 10px;
@@ -23,11 +29,23 @@ form {
 	font-size:16px;
 }
 
+
+.checkit {
+	text-align:left;
+	font-size:36px;
+}
+
 .tweets {
 	display: inline-block;
-	position: relative;
+	/*vertical-align: top;*/
+	/*position: relative;*/
 	top:100px;
+	left:5px;
 	width:600px;
+	background-color: #476B6B;
+	padding-left:50px;
+	padding-top:20px;
+	padding-bottom:20px;
 	text-align: center;
 	border-radius: 10px;
 	border:4px black solid;
