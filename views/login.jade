@@ -1,0 +1,11 @@
+extends layout
+
+block content
+  h1 = title
+
+  form(method='post', action='/login', id="formic")
+    | Username:
+    input(name='username', id="nameIn")
+
+    button('type='submit')
+      | Login

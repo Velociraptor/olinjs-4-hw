@@ -1,0 +1,17 @@
+extends layout
+
+block content
+  //link(href='a_stylesheet.css', rel='stylesheet')
+  script(src='/javascripts/checkForTwits.js')
+  script(src='/javascripts/postTwit.js')
+  h1= title
+
+  form(id="formT", background-color='red')
+    | Compose a Twit:
+    input(name='message', id="message")
+
+    button('type='submit')
+      | Send Twit
+  
+  div(id='twits')
+    include _twits

@@ -1,0 +1,4 @@
+div(class="tweets")
+  each twit, i in twits
+    div #{twit.creator.username}
+      p #{twit.message}

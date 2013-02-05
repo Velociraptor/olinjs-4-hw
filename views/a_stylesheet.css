@@ -1,0 +1,35 @@
+body {
+	font-family: Lucida Sans Unicode, Lucida Grande, sans-serif;
+	bg-color: #95E923;
+	font-size: 800;
+	/*background-image: url(http://maxim061156.files.wordpress.com/2012/09/santaclaus15.jpg);*/
+	/*background-repeat: no-repeat;*/
+}
+
+form {
+	bg-color: #0000FF;
+	text-align: center;
+	border-radius: 10px;
+	border: 6px black;
+}
+
+.green {
+	/*border: green solid 2px;*/
+}
+
+.red {
+	/*border: red solid 2px;*/
+}
+
+p {
+	/*font-size: 32px;*/
+}
+
+div {
+	position: relative;
+	/*top:100px;
+	left:400px;*/
+	text-align: center;
+	border-radius: 10px;
+	border:4px black double;
+}
